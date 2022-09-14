@@ -96,7 +96,7 @@ if __name__ == '__main__':
     cerebro.addstrategy(TestStrategy)
 
     modpath = os.path.dirname(os.path.abspath(sys.argv[0]))
-    datapath = os.path.join(modpath, '603186.csv')
+    datapath = os.path.join(modpath, './603186.csv')
 
     # 加载数据到模型中
     data = bt.feeds.GenericCSVData(

@@ -111,7 +111,7 @@ if __name__ == '__main__':
 
     # 加载数据到模型中
     data = bt.feeds.GenericCSVData(
-        dataname='600519.csv',
+        dataname='./01.begin/600519.csv',
         fromdate=datetime.datetime(2010, 1, 1),
         todate=datetime.datetime(2020, 4, 12),
         dtformat='%Y%m%d',
